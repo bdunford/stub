@@ -1,0 +1,22 @@
+{
+    "name": "stub",
+    "main": "./lib/stub",
+    "version": "0.0.0",
+    "private": true,
+    "description": "For stubbing out your node projects with your own custom templates",
+    "repository": "https://github.com/bdunford/stub",
+    "license": "MIT",
+    "bin": {
+         "stub": "./bin/stub"
+    },
+    "dependencies": {
+
+    },
+    "scripts" : {
+        "test" : "jasmine-node spec"
+    },
+
+    "directories" : {
+        "template" : "./template"
+    }
+}

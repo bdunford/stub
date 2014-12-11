@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+var stub = require('../lib/stub.js');
+var stubber = new stub();
+var args = process.argv.slice(2);
+
+var prj = args[0];
+var tpl = args[1];
+
+stubber.new(prj,tpl);
+console.log(">>> " + prj + " <<< was sucessfully created");

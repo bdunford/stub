@@ -1,0 +1,15 @@
+{
+    "name": "{%p}",
+    "main": "./lib/{%p}",
+    "version": "0.0.0",
+    "private": true,
+    "description": "just another node app",
+    "repository": "https://github.com/[username]/{%p}",
+    "license": "MIT",
+    "dependencies": {
+
+    },
+    "scripts" : {
+        "test" : "jasmine-node spec"
+    }
+}
