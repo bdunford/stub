@@ -7,8 +7,10 @@ Requires Nodejs http://nodejs.org
 ##Installing
 
 __From the Command Line__<br />
-stub is intended to be installed globally so that it can be used from anywhere.
-``` npm install -g git+https://github.com/bdunford/stub.git ```
+stub is intended to be installed globally, so that it can be used from anywhere.
+```
+$ npm install -g git+https://github.com/bdunford/stub.git
+```
 
 ##Usage
 
