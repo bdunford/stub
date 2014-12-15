@@ -2,5 +2,6 @@
     "lib-spec.js" : "./spec/{%p}-spec.js",
     "README.md" : "./README.md",
     "package.json" : "./package.json",
-    "lib.js" : "./lib/{%p}.js"
+    "lib.js" : "./lib/{%p}.js",
+    "gitignore" : "./.gitignore"
 }
