@@ -1,4 +1,4 @@
-var {%} = require("../lib/{%p}");
+var {%p} = require("../lib/{%p}");
 
 describe("{%p}", function() {
 
